@@ -1,0 +1,21 @@
+#background{
+    height: 100vh;
+    width: 100%;
+    animation-name: fadeOutBackground;
+    animation-iteration-count: initial;
+    animation-duration: 3s;   
+}
+
+  
+
+
+@keyframes fadeOutBackground{
+    0%{
+        background-color: black;
+        opacity: 1;
+    }
+    100%{
+        background-color:white;
+        opacity: 0;
+    }
+}
