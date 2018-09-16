@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import gary from '../../assets/gary-robinson-logo.png';
+import gary from '../../assets/gr-logo.png';
 import {slide as Menu} from 'react-burger-menu';
 import './Header.css';
 
