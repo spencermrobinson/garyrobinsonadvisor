@@ -7,7 +7,7 @@ class Home extends Component{
     render(){
         return(
             <div className="home-page" id="background">
-             <Header/>
+             <Header className="header"/>
             </div> 
         )
     }

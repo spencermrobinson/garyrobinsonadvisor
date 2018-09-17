@@ -1,0 +1,46 @@
+.ham-nav{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.ham-menu{
+    border-bottom: 1px solid lightgray;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    margin: 0 30px 0 0;
+}
+.ham-menu a{
+    font-family: helvetic neue sans-serif;
+    text-decoration: none;
+    color: #36454f;
+    margin: 0 10px;
+    line-height: 70px;
+}
+label{
+    font-size: 26px;
+    line-height: 78px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+@media only screen and (max-width: 500px){
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .ham-menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .ham-menu a{
+        display: block;
+        border-bottom: 1px solid lightgray;
+    }
+    #toggle:checked + .ham-menu{
+        display: block;
+    }
+}

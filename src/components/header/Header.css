@@ -1,11 +1,14 @@
 .header-container{
     height:20vh;
     width: 100%;
-
+    
 }
+
+
 .gr-logo{
     height: 8vh;
     width: 60%;
     position: relative;
     left: -16%;
+    
 }
