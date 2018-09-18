@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+.home-lax{
+    margin: 2%;
+    height: 100vh;
+    width: 98%;
+}
+.lax-container{
+    display: flex;
+    align-content: center;
+    
+}
+.home-lax div{
+    margin: 20px;
+    margin-top: 60px;
+    width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightgray;
+    font-size: 18px;
+}
+@media (min-width: 500px){
+    .lax-container{
+        display: flex;
+        align-content: center;
+        width: 100%;
+    }
+    .home-lax{
+        margin: 2%;
+        height: 100vh;
+        width: 98%;
+    }
+    .home-lax div{
+        margin: 20px;
+        margin-top: 60px;
+        
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 36px;
+    }
+}
+
