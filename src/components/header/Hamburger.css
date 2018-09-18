@@ -26,9 +26,21 @@ label{
     display: none;
 }
 
+
+
+/* FOR MOBILE RESPONSIVE */
 @media only screen and (max-width: 500px){
-    label{
+    .bar{
+        height: 2px;
+        width: 10%;
+        background-color: #36454f;
         display: block;
+        margin: 4px;
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         cursor: pointer;
     }
     .ham-menu{
@@ -36,11 +48,49 @@ label{
         width: 100%;
         display: none;
     }
+    .ham-menu a:nth-child(2) {
+        animation-delay: 100ms;
+    }
+    .ham-menu a:nth-child(3) {
+        animation-delay: 200ms;
+    }
+    .ham-menu a:nth-child(3) {
+        animation-delay: 300ms;
+    }
     .ham-menu a{
         display: block;
         border-bottom: 1px solid lightgray;
+        opacity: 0;
+	    animation: fadeIn 500ms ease-in both;
     }
     #toggle:checked + .ham-menu{
         display: block;
     }
 }
+
+/* MENU TO X */
+#toggle:checked + bar b{
+    animation: barOpacity 250ms ease-out both;
+
+}
+
+@keyframes barOpacity{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+/* MOBILE MENU FADE IN */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
