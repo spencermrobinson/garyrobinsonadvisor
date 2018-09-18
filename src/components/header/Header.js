@@ -12,8 +12,17 @@ class Header extends Component{
     render(){
     return(
         <div className="header-container">
-            <img className="gr-logo" src={gary} alt=""/>
-            <Hamburger/>
+            <div className="gr-logo-container">
+                <span className=
+                'gr-logo-letter'>Gary Robinson</span>
+                <div>
+                    <span className='gr-sub-logo'
+                    >FINANCIAL ADVISOR</span>
+                </div> 
+            </div>
+            <div>  
+                <Hamburger className="ham-container"/>
+            </div>
         </div> 
     )}
 }

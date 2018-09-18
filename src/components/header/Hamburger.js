@@ -11,6 +11,7 @@ class Hamburger extends Component{
                 <label for="toggle"><div className="bar" id="a"></div><div className="bar" id="b"></div><div className="bar" id="c"></div></label>
                 <input type='checkbox' id='toggle'/>
                 <div className="ham-menu">
+                <a href="">HOME</a>
                 <a href="">ABOUT</a>
                 <a href="">SERVICES</a>
                 <a href="">CONTACT</a>
