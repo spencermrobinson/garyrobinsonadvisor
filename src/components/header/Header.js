@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import gary from '../../assets/gr-logo.png';
+import gary from '../../assets/gary-logo.png';
+import {Link} from 'react-router-dom';
 // import {slide as Menu} from 'react-burger-menu';
 import Hamburger from './Hamburger'
 import './Header.css';
@@ -12,15 +13,10 @@ class Header extends Component{
     render(){
     return(
         <div className="header-container">
-            <div className="gr-logo-container">
-                <span className=
-                'gr-logo-letter'>Gary Robinson</span>
-                <div>
-                    <span className='gr-sub-logo'
-                    >FINANCIAL ADVISOR</span>
-                </div> 
-            </div>
-            <div>  
+            <Link to="/Home"><div className="gr-logo-container">
+                <img id="gary-logo" src={gary} alt="gary-logo"/> 
+            </div></Link>
+            <div className="header-ham-container">  
                 <Hamburger className="ham-container"/>
             </div>
         </div> 
