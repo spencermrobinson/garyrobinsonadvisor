@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    
 }
 
 .home-header-container{
@@ -23,6 +24,9 @@
     
 }
 .home-lax-container{
+    position: relative;
+    right: -2%;
+    margin: 40px auto;
     width:100%;
     height: 300px;
     animation-name: entrance;
@@ -34,8 +38,19 @@
 .home-why-container{
     height: 100vh;
     width: 100%;
-    margin: -100% auto;
+    margin: -230px auto;
+    animation-name: entrance;
+    animation-iteration-count: initial;
+    animation-duration: 4000ms;
 }
+#home-offer{
+    margin: 250px auto;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    right: -2%;
+}
+
 @media (min-width: 500px){
     .home-why-container{
         height: 100vh;

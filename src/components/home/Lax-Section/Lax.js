@@ -4,7 +4,7 @@ import retireMan from '../../../assets/retirement-lake.jpg';
 import './lax.css'
 
  
-const MyComponent = () => (
+const Lax = () => (
     <div className="lax-container">
         {/* -----basic config-----*/}
         <Parallax
@@ -23,7 +23,7 @@ const MyComponent = () => (
         
     </div>
 );
-export default MyComponent;
+export default Lax;
 
     
 

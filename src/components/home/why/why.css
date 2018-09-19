@@ -1,19 +1,23 @@
 .why-container{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    height: 200px;
-    width: 90%;
+    align-items: center;
+    height: 430px;
+    width: 100%;
     position: relative;
-    left: 6px;
+    /* left: 6px; */
     top: -30px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     padding: 8px;
     
 }
+
 #why-2{
-    width: 50%;
+    width: 80%;
+}
+#why-2 p{
+    padding: 10px;
 }
 
 .why-title{
@@ -26,9 +30,10 @@
     
 }
 #clients-img{
-    display: none;
-    height: 250px;
-    width: 400px;
+    
+    height: 200px;
+    width: 50%;
+    
 }
 
 @media (min-width: 500px){
@@ -37,7 +42,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 5%;
+        margin-top: 7%;
         height: 250px;
         border-top: none;
         border-bottom: none;
@@ -48,7 +53,14 @@
         color: #36454f;
     }
     #clients-img{
-        display: inline;
+        /* display: inline; */
+        height: 400px;
+        width: 600px;
+        margin: 20px;
         
     }
+    #why-2{
+        width: 40%;
+    }
 }
+
