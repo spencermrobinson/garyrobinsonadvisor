@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/Header.js';
-import Lax from './Lax-Section/Lax.js'
+import Lax from './Lax-Section/Lax.js';
+import Why from './why/Why.js';
 import './home.css';
 
 class Home extends Component{
@@ -11,12 +12,15 @@ class Home extends Component{
                 <div className="home-header-container">
                     <Header/>
                 </div>
-                <div className="content">
+                <div className="content-container">
                     <div className="home-lax-container">
                         <Lax/>
-                    </div>  
+                        
+                    </div>
                 </div> 
-                
+                <div className="home-why-container">
+                    <Why/>
+                </div>
                  
             </div> 
         )
