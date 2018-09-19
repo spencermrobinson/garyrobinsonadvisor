@@ -32,7 +32,7 @@
 #clients-img{
     
     height: 200px;
-    width: 50%;
+    width: 90%;
     
 }
 
@@ -51,6 +51,10 @@
     }
     .why-title{
         color: #36454f;
+        font-weight: 300;
+        text-decoration: underline;
+        font-size: 32px;
+        letter-spacing: 1px;
     }
     #clients-img{
         /* display: inline; */
@@ -61,6 +65,11 @@
     }
     #why-2{
         width: 40%;
+        
+    }
+    #why-2 p{
+        font-weight: 400;
+        margin: 10px;
     }
 }
 
