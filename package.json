@@ -15,6 +15,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "homepage": "http://spencermrobinson.github.io/garyrobinsonadvisor"
+    "homepage": "http://spencermrobinson.github.io/garyrobinsonadvisor",
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
   }
 }
