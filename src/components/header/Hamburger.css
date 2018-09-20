@@ -5,26 +5,40 @@
    
 }
 .ham-menu{
-    
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 70px;
     line-height: 70px;
-    margin: 0 30px 0 0;
+    margin-left: -18px;
     width: 100%;
+    
 }
-.ham-menu a{
-    font-family: helvetic neue sans-serif;
+.bluey {
+    height: 70px;
+    width: 140px;
+    
+    background-color: white;;
+    border: none;
+    /* padding: 15px 32px; */
     text-decoration: none;
-    color: #36454f;
-    margin: 0 10px;
-    line-height: 70px;
-    background-color: white;
-
-}
-.ham-menu a:hover{
+    display: inline-block;
     font-size: 16px;
-    font-weight: 800;
+    color: #36454f;
+    font-family: helvetic neue sans-serif;
+    
+    
 }
+.bluey:hover{
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+
+
+
+
 label{
     font-size: 26px;
     line-height: 78px;
@@ -57,26 +71,25 @@ label{
     }
     .ham-menu{
         position: relative;
-        right: 10%;
-        text-align: center;
+        left:8.4%;
         width: 100%;
         display: none;
     }
-    .ham-menu a:nth-child(2) {
+    .ham-menu button:nth-child(2) {
         animation-delay: 100ms;
     }
-    .ham-menu a:nth-child(3) {
+    .ham-menu button:nth-child(3) {
         animation-delay: 200ms;
     }
-    .ham-menu a:nth-child(4) {
+    .ham-menu button:nth-child(4) {
         animation-delay: 300ms;
     }
-    .ham-menu a:nth-child(5) {
+    .ham-menu button:nth-child(5) {
         animation-delay: 400ms;
     }
-    .ham-menu a{
+    .ham-menu button{
         display: block;
-        border-bottom: 1px solid lightgray;
+        
         opacity: 0;
         animation: fadeIn 500ms ease-in both;
         
@@ -88,7 +101,7 @@ label{
 }
 
 /* MENU TO X */
-#toggle:checked + bar b{
+#toggle:checked + bar {
     animation: barOpacity 250ms ease-out both;
 
 }

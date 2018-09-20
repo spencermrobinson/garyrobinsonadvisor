@@ -13,7 +13,7 @@ class Header extends Component{
     render(){
     return(
         <div className="header-container">
-            <Link to="/Home"><div className="gr-logo-container">
+            <Link to="/"><div className="gr-logo-container">
                 <img id="gary-logo" src={gary} alt="gary-logo"/> 
             </div></Link>
             <div className="header-ham-container">  
