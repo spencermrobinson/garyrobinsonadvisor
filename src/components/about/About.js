@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../header/Header.js';
+import AboutPhoto from './about-photo.js'
 
 
 class About extends Component{
@@ -10,7 +11,7 @@ class About extends Component{
             <div>
                 <div><Header/></div>
                 <div className="about-container">
-                
+                <AboutPhoto/>
                 </div> 
             </div> 
         )
