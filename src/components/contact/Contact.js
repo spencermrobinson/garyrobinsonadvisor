@@ -7,7 +7,7 @@ class Contact extends Component{
         return(
             <div>
                 <div><Header/></div>
-                <h1>THIS PAGE IS CURRENTLY BEING BUILT</h1> 
+                
             </div> 
         )
     }

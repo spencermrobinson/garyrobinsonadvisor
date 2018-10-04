@@ -12,7 +12,7 @@ const Lax = () => (
             blur={0}
             bgImage={require('../../../assets/retirement-lake-small.jpg')}
             bgImageAlt="the cat"
-            strength={250}
+            strength={200}
         >
             
             Realizing Your Financial Objectives Since 1985

@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Header from '../header/Header.js';
 import Lax from './Lax-Section/Lax.js';
 import Why from './why/Why.js';
-import Offer from './services/Offer.js'
+import Offer from './services/Offer.js';
+import Disclaimer from '../disclaimer/Disclaimer.js';
 import './home.css';
 
 class Home extends Component{
@@ -26,7 +27,7 @@ class Home extends Component{
                  <div id="home-offer">
                     <Offer/>
                  </div> 
-                 
+                 <div className="policy-container"><Disclaimer/></div>
             </div> 
         )
     }

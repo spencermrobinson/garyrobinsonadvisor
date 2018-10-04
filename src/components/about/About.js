@@ -9,7 +9,9 @@ class About extends Component{
         return(
             <div>
                 <div><Header/></div>
-                <h1>THIS PAGE IS CURRENTLY UNDER CONTRUCTION</h1>
+                <div className="about-container">
+                
+                </div> 
             </div> 
         )
     }
