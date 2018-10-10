@@ -2,6 +2,9 @@
     height: 350px;
     width: 280px;
     border-radius: 4px;
+    animation-name: entrance;
+    animation-iteration-count: initial;
+    animation-duration: 4000ms;
 }
 #gary-photo:hover{
     transform: scale(1.02);
@@ -12,6 +15,9 @@
     justify-content: space-around;
     margin: 80px;
 
+}
+#about-mobile-title{
+    display: none;
 }
 .about-title{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -31,7 +37,29 @@
 .about-text{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #36454f;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 100;
+    letter-spacing: 1px;
     
+}
+@media(max-width: 500px){
+    #about-mobile-title{
+        display: inline;
+    }
+    #about-desk-title{
+        display: none;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin: 10px;
+    }
+    #gary-photo{
+        height: 60vh;
+        width: 110%;
+        position: relative;
+        right: -15px;
+    }
 }

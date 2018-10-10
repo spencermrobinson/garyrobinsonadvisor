@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Header from '../header/Header.js';
 
 
 class Products extends Component{
@@ -7,7 +8,9 @@ class Products extends Component{
     render(){
         return(
             <div>
-            Services
+                <div>
+                    <Header/>
+                </div> 
             </div> 
         )
     }
