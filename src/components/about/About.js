@@ -14,6 +14,8 @@ class About extends Component{
                 <div className="about-container">
                 <AboutPhoto/>
                 <div id="about-content">
+                <span className='about-title'
+                >Gary R. Robinson, CLU</span>
                 <span className='about-text' id="about-par-1"
                 >Gary Robinson has over 31 years of experience in Financial Services and Retirement Income Planning. He holds a degree in Financial and Retirement Planning from the American College. Gary has helped hundreds of Utah retirees and pre-retirees while emphasizing the protection of assets from stock market loss, minimizing excessive investment fees, and creating income during retirement that you cannot outlive. He has a passion for protecting the assets of his clients and helping them reach their retirement and income planning goals.
                 </span>
